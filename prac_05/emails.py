@@ -5,7 +5,6 @@ actual: 50min
 """
 EMAIL_TO_NAME = {}
 
-
 def main():
     email = input("Email: ")
     while email != "":
@@ -24,7 +23,6 @@ def main():
     names = list(EMAIL_TO_NAME.values())
     for i in range(len(EMAIL_TO_NAME)):
         print(f"{names[i]:3} ({emails[i]})")
-
 
 def name_confirmation(full_name):
     confirmation = input(f"is your name {full_name} (Y/N)")

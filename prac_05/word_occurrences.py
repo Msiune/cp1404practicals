@@ -3,7 +3,6 @@ word_occurrences
 estimate: 1hour
 actual: 50min
 """
-
 text = input("Enter text: ")
 WORDS_AND_COUNT = {}
 for word in text.split():

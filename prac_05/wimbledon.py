@@ -29,4 +29,3 @@ for country in countries:
         winning_countries.remove("Country")
 sorted_countries = sorted(winning_countries)
 print(', '.join(sorted_countries))
-

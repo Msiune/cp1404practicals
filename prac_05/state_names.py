@@ -19,8 +19,6 @@ ABBREVIATION_TO_STATES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "
 #         print("Invalid short state")
 #     state_code = input("Enter short state: ").upper()
 
-
-
 abbreviation = list(ABBREVIATION_TO_STATES.keys())
 state_name = list(ABBREVIATION_TO_STATES.values())
 for i in range(len(ABBREVIATION_TO_STATES)):
